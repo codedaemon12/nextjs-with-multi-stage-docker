@@ -12,9 +12,15 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
-        Check the docker file for all steps
-        </div>
+      <h1 className={styles.title}>
+        Welcome to multi-stage docker image
+        </h1>
+
+        <p className={styles.description}>
+          Check the Dockerfile for more details
+          <code className={styles.code}>Dockerfile</code>
+        </p>
+
       </main>
 
       <footer className={styles.footer}>
